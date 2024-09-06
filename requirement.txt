@@ -1,0 +1,6 @@
+json 
+requests
+datetime
+urllib.parse
+bs4 
+beautifultable 

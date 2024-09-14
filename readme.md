@@ -1,5 +1,19 @@
-This Python program provides a user-friendly interface for web scraping tasks. It allows you to:
+Project Overview
 
-Scrape a single website: Enter a URL, and the program will extract data like title, anchor tags, images, headings, and paragraphs.
-View existing scraped data: The program loads previously scraped websites from a JSON file and displays them in a clear table format using the beautifultable library.
-Save scraped data: Extracted data is saved in JSON format with additional metadata (alias name, domain, scraped time, and status).
+This project is a web scraping tool designed to extract data from various websites and transform it into formats suitable for training and fine-tuning large language models (LLMs). It offers three distinct scraping modes:
+
+1. CLI Mode (Python):
+
+Provides a command-line interface for direct interaction and customization.
+Offers flexibility for advanced users who prefer manual control.
+Returns scraped data in a customizable format.
+
+2. JS Mode (JSON Markdown):
+
+Generates JSON Markdown files, ideal for training and fine-tuning LLMs with real-world data.
+Encapsulates extracted data in a structured format for easy ingestion by machine learning models.
+
+3.TS Mode (Markdown):
+
+Focuses solely on extracting body content, providing a streamlined output.
+Generates Markdown files suitable for tasks that require only the core textual content.
